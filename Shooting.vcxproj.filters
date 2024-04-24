@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{b8eff4b6-f58c-4859-ba58-dfceb7064c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shot">
+      <UniqueIdentifier>{a7caad25-8ab0-405d-930b-0cbc360fae2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Char">
+      <UniqueIdentifier>{15b39941-366d-422e-8772-5a89f2f4682e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="InputState.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Operate.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneGame.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneResult.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneTitle.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Char\Enemy.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Char\Player.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot\EnemyShot.cpp">
+      <Filter>Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot\IceShot.cpp">
+      <Filter>Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot\IcicleShot.cpp">
+      <Filter>Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot\Shot.cpp">
+      <Filter>Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot\ThunderShot.cpp">
+      <Filter>Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Char\CharBase.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputState.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Operate.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneGame.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneResult.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneTitle.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\Enemy.h">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\Player.h">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot\EnemyShot.h">
+      <Filter>Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot\IceShot.h">
+      <Filter>Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot\IcicleShot.h">
+      <Filter>Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot\Shot.h">
+      <Filter>Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot\ThunderShot.h">
+      <Filter>Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Char\CharBase.h">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
